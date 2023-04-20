@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Ónde Isa</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+     <link href="img/onde_isa.jpg" rel="icon"> 
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid top-bar bg-dark text-light px-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="row gx-0 align-items-center d-none d-lg-flex">
+            <div class="col-lg-12 px-5 text-end">
+                <small>Siguenos en:</small>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn-lg-square text-primary border-end rounded-0" href="https://www.facebook.com/profile.php?id=100091302743044"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn-lg-square text-primary border-end rounded-0" href="https://www.instagram.com/ondeisa.envios/"><i class="fab fa-instagram"></i></a>
+                    <a class="btn-lg-square text-primary border-end rounded-0" href="https://www.youtube.com/@OndeIsa/videos"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+        <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+            <h1 class="text-dark m-0">Ónde Isa</h1>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav mx-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Inicio</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">¿Quienes somos?</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="team.html" class="dropdown-item">Más información</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Servicios</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="pasteleria.html" class="dropdown-item">Pastelería</a>
+                        <a href="chocolate.html" class="dropdown-item">Chocolate</a>
+                        <a href="comida.html" class="dropdown-item">Comida y más</a>
+                    </div>
+                </div>
+                       <!-- Quite testimonios -->
+                <a href="contact.html" class="nav-item nav-link">Contáctanos</a>
+                <a href="about.html" class="nav-item nav-link">Acerca de</a>
+                <!-- <a href="Exito.html" class="nav-item nav-link">Éxito</a> -->
+            </div>
+            <div class=" d-none d-lg-flex">
+                <div class="flex-shrink-0 btn-lg-square border border-light rounded-circle">
+                    <i class="fa fa-phone text-white"></i>
+                </div>
+                <div class="ps-3">
+                    <small class="text-primary mb-0">Contáctanos:</small>
+                    <p class="text-light fs-5 mb-0">+506 8449 6101</p>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+     <!-- <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img  class="img-fluid d-block w-100 " src="img/Galletas.jpeg" alt="">
+            <div class="carousel-caption d-none d-md-block">
+                <p class="text-primary text-uppercase fw-bold mb-2">// Date un gustito</p>
+                <h1 class="display-1 text-light mb-4 animated slideInDown">Elegí cualquiera de nuestros productos</h1>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img class="img-fluid d-block w-100" src="img/Sopa_azteca.jpeg" alt="">
+            <div class="carousel-caption d-none d-md-block">
+                <p class="text-primary text-uppercase fw-bold mb-2">// Date un gustito</p>
+                <h1 class="display-1 text-light mb-4 animated slideInDown">Elegí cualquiera de nuestros productos</h1>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="img-fluid d-block w-100" src="img/Queque_frutas.jpeg" alt="">
+            <div class="carousel-caption d-none d-md-block">
+                <p class="text-primary text-uppercase fw-bold mb-2">// Date un gustito</p>
+                <h1 class="display-1 text-light mb-4 animated slideInDown">Elegí cualquiera de nuestros productos</h1>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>  -->
+
+    
+      <div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="owl-carousel header-carousel position-relative" >
+            <div class="owl-carousel-item-1 position-relative">
+                <img class="img-fluid" src="img/Galletas.jpeg" alt="">
+                <div class="owl-carousel-inner-1">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-lg-8">
+                                <p class="text-primary text-uppercase fw-bold mb-2">// Date un gustito</p>
+                                <h1 class="display-1 text-light mb-4 animated slideInDown">Elegí cualquiera de nuestros productos</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item-1 position-relative">
+                <img class="img-fluid" src="img/Sopa_azteca.jpeg" alt="">
+                <div class="owl-carousel-inner-1">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-lg-8">
+                                <p class="text-primary text-uppercase fw-bold mb-2">// Date un gustito</p>
+                                <h1 class="display-1 text-light mb-4 animated slideInDown">Elegí cualquiera de nuestros productos</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item-1 position-relative">
+                <img class="img-fluid" src="img/Queque_frutas.jpeg" alt="">
+                <div class="owl-carousel-inner-1">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-lg-8">
+                                <p class="text-primary text-uppercase fw-bold mb-2">// Date un gustito</p>
+                                <h1 class="display-1 text-light mb-4 animated slideInDown">Elegí cualquiera de nuestros productos</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!-- Carousel End -->
+
+<!-- Quite habilidades -->
+
+    <!-- About Start -->
+    <div class="container-xxl py-6">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="row img-twice position-relative h-100">
+                        <div class="col-6">
+                            <img class="img-fluid rounded" src="img/Queque_cerdito_1.jpeg" alt="">
+                        </div>
+                        <div class="col-6 align-self-end">
+                            <img class="img-fluid rounded" src="img/Cupcake_muñeco_nieve_1.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="h-100">
+                        <p class="text-primary text-uppercase mb-2">// ¿Quiénes somos?</p>
+                        <h1 class="display-6 mb-4">¡Bienvenidos a  OndeIsa!</h1>
+                        <p> Somos un negocio local que ofrece una amplia variedad de productos frescos y deliciosos para satisfacer cualquier antojo. Desde pasteles y postres hasta comidas completas,
+                             nuestro objetivo es ofrecer productos de alta calidad que deleiten el paladar de nuestros clientes.
+                            Nos enorgullece utilizar los ingredientes más frescos y de la mejor calidad en todos nuestros productos, no dejando de lado el amor que le agregamos a todo lo que preparamos para ustedes. 
+                            En nuestra OndeIsa, la atención al cliente es una prioridad.  Desde pequeñas compras hasta grandes pedidos de eventos, nos aseguramos de que cada cliente se sienta bienvenido y satisfecho.
+                            ¡Gracias por elegir OndeIsa! Esperamos deleitar sus sentidos con nuestros productos y servicio excepcional.</p>
+                        <div class="row g-2 mb-4">
+                            <div class="col-sm-6">
+                                <i class="fa fa-check text-dark me-2"></i>Productos y comida de Calidad
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fa fa-check text-dark me-2"></i>Entregas a Domicilio o al trabajo
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Product Start -->
+    <div class="container-xxl bg-light my-6 py-6 pt-0">
+        <div class="container">
+            <div class="bg-primary text-light rounded-bottom p-5 my-6 mt-0 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="row g-4 align-items-center">
+                    <div class="col-lg-6">
+                        <h1 class="display-4 text-light mb-0">Ónde Isa podés encontrar variedad en comidas</h1>
+                    </div>
+                    <div class="col-lg-6 text-lg-end">
+                        <div class="d-inline-flex align-items-center text-start">
+                            <i class="fa fa-phone-alt fa-4x flex-shrink-0"></i>
+                            <div class="ms-4">
+                                <p class="fs-5 fw-bold mb-0">Llamanos</p>
+                                <p class="fs-1 fw-bold mb-0">+506 8449 6101</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="text-primary text-uppercase mb-2">// Elije Alguno de nuestros Productos</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
+                        <div class="text-center p-4">
+                            <div class="d-inline-block border border-primary rounded-pill px-3 mb-3">₡15.000 - ₡45.000</div>
+                            <h3 class="mb-3">Pasteles</h3>
+                            <span>Pastel cubierto con fondan de su elección</span>
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img class="img-fluid" src="img/Queque_fondan_3_pisos.jpeg" alt="">
+                            <div class="product-overlay">
+                                <a class="btn btn-lg-square btn-outline-light rounded-circle" href="img/Queque_fondan_3_pisos.jpeg"><i class="fa fa-eye text-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
+                        <div class="text-center p-4">
+                            <div class="d-inline-block border border-primary rounded-pill pt-1 px-3 mb-3">₡2.500 - ₡10.000</div>
+                            <h3 class="mb-3">Chocolates</h3>
+                            <span>Chocolates para una toda ocasion</span>
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img class="img-fluid" src="img/corazon_grande_de_chocolate.jpeg" alt="">
+                            <div class="product-overlay">
+                                <a class="btn btn-lg-square btn-outline-light rounded-circle" href="img/corazon_grande_de_chocolate.jpeg"><i class="fa fa-eye text-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
+                        <div class="text-center p-4">
+                            <div class="d-inline-block border border-primary rounded-pill pt-1 px-3 mb-3">₡3.000 - ₡10.000</div>
+                            <h4 class="mb-3">Pastas entre otras comidas</h4>
+                            <span>Dese un gustito y elija cualquiera</span>
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img class="img-fluid" src="img/Lasagnna.jpeg" alt="">
+                            <div class="product-overlay">
+                                <a class="btn btn-lg-square btn-outline-light rounded-circle" href="img/Lasagnna.jpeg"><i class="fa fa-eye text-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Product End -->
+
+
+    <!-- Service Start Agregue mis servicios -->
+    <div class="container-xxl py-6">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="text-primary text-uppercase mb-2">// Nuestros servicios</p>
+                    <h1 class="display-6 mb-4">¿Que servicios ofrecemos?</h1>
+                    <div class="row gy-5 gx-4">
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fa fa-bread-slice text-white"></i>
+                                </div>
+                                <h5 class="mb-0">Servicio de Catering</h5>
+                            </div>
+                            <span>Para cualquier tipo de actividad: bodas, cumpleaños, bautizos</span>
+                        </div>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fa fa-birthday-cake text-white"></i>
+                                </div>
+                                <h5 class="mb-0">Pasteleria</h5>
+                            </div>
+                            <span>Diseñamos lo que ustedes nos pidan y tenemos un catalogo de Pasteles que hemos hecho</span>
+                        </div>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fa fa-heart text-white"></i>
+                                </div>
+                                <h5 class="mb-0">Chocolate</h5>
+                            </div>
+                            <span>Diseñamos figuras con chocolate para cualquier ocasión</span>
+                        </div>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fa fa-truck text-white"></i>
+                                </div>
+                                <h5 class="mb-0">Entregas a Domicilio</h5>
+                            </div>
+                            <span>Nos encargamos de llevarlo hasta su casa o evento</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="row img-twice position-relative h-100">
+                        <div class="col-6">
+                            <img class="img-fluid rounded" src="img/Postre_3_leches_grande.jpeg" alt="">
+                        </div>
+                        <div class="col-6 align-self-end">
+                            <img class="img-fluid rounded" src="img/Bolas_de_chocolate.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Team Start -->
+    <div class="container-xxl py-6">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="text-primary text-uppercase mb-2">Creadora</p>
+                 <!-- Quite datos de un h1 -->
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item text-center rounded overflow-hidden">
+                        <img class="img-fluid" src="img/Foto_dueña.jpeg" alt="">
+                        <div class="team-text">
+                            <div class="team-title">
+                                <h5>Isabel Vargas Solis</h5>
+                            </div>
+                            <div class="team-social">
+                                <a class="btn btn-square btn-light rounded-circle" href="https://www.facebook.com/isabel.vargas.9655"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-light rounded-circle" href="https://www.instagram.com/isabellavs1111/"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+  <!-- Quite testimonio de gente-->
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer my-6 mb-0 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5 bg-primary">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6 justify-content-center m-auto">
+                    <h4 class="text-light mb-4">Información General</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Villa Elia de Rio Segundo de Alajuela, Alajuela, Costa Rica</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+506 8449 6101</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>ondeIsa.envios@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href="https://www.facebook.com/profile.php?id=100091302743044"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href="https://www.instagram.com/ondeisa.envios/"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href="https://www.youtube.com/@OndeIsa/videos"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href="https://wa.link/9awsts"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+             <!-- Quite 2 columanas -->
+                <div class="col-lg-3 col-md-6 justify-content-center m-auto">
+                    <h4 class="text-light mb-4">Galería</h4>
+                    <div class="row g-2">
+                        <div class="col-4">
+                            <img class="img-fluid bg-light rounded p-1" src="img/Queque_cerdito.jpeg" alt="Image">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light rounded p-1" src="img/Queque_lustre_sencillo_florecitas.jpeg" alt="Image">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light rounded p-1" src="img/Queque_lustre_unicornio.jpeg" alt="Image">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light rounded p-1" src="img/Torta_chilena.jpeg" alt="Image">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light rounded p-1" src="img/Queque_Sencillo_princesa_sofia.jpeg" alt="Image">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light rounded p-1" src="img/Queque_primera_comunion.jpeg" alt="Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright text-light py-4 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a href="#">OndeIsa.com</a>, Todos los derechos reservados.
+                </div>
+                 <!--Quite etiqueta de donde lo saque -->
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
